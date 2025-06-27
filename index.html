@@ -1,13 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+    }
+    *{
+    box-sizing: border-box;
+    }
+      </style>
 
-  
-  <title>Document</title>
+  <title>Simple Calculator</title>
 </head>
-<body>
-  
+
+<body class="min-h-screen flex justify-center items-center bg-[url(pixel-albert.png)] bg-repeat-x bg-right">
+  <main class="">
+    <div class="h-152 w-110 bg-black rounded-md border p-5">
+      <div class="  ">
+        <div class="w-full flex justify-end items-end">
+          <p class="text-white text-8xl ">1976</p>
+        </div>
+        <div class="mt-5 h-100">
+          <div class="flex justify-between mb-3">
+            <button class="flex items-center justify-center bg-gray-400 h-20 w-20 rounded-full cursor-pointer">
+              <span class="text-3xl">
+                  C
+              </span>
+            </button>
+            <button class="flex items-center justify-center  bg-gray-400 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-3xl">
+                    +/-
+               </span>
+            </button>
+            <button class="flex items-center justify-center bg-gray-400 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-3xl">
+                    %
+                </span>
+            </button>
+            <button class="flex items-center justify-center bg-amber-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                    /
+                 </span>
+            </button>
+          </div>
+
+            <div class="flex justify-between mb-3">
+            <button class="flex items-center justify-center bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+              <span class="text-white text-3xl">
+                7
+              </span>
+            </button>
+            <button class="flex items-center justify-center  bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                   8
+               </span>
+            </button>
+            <button class="flex items-center justify-center bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                    9
+                </span>
+            </button>
+            <button class="flex items-center justify-center bg-amber-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                  *
+                 </span>
+            </button>
+          </div>
+
+            <div class="flex justify-between mb-3">
+            <button class="flex items-center justify-center bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+              <span class="text-white text-3xl">
+                  4
+              </span>
+            </button>
+            <button class="flex items-center justify-center  bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                 5
+               </span>
+            </button>
+            <button class="flex items-center justify-center bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                   6
+                </span>
+            </button>
+            <button class="flex items-center justify-center bg-amber-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                    -
+                 </span>
+            </button>
+          </div>
+
+            <div class="flex justify-between mb-3">
+            <button class="flex items-center justify-center bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+              <span class="text-white text-3xl">
+                  1
+              </span>
+            </button>
+            <button class="flex items-center justify-center  bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                    2
+               </span>
+            </button>
+            <button class="flex items-center justify-center bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                    3
+                </span>
+            </button>
+            <button class="flex items-center justify-center bg-amber-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-3xl">
+                    +
+                 </span>
+            </button>
+          </div>
+
+            <div class="flex justify-between mb-3">
+            <button class="flex items-center justify-center bg-slate-500 h-20 w-45 rounded-full cursor-pointer">
+              <span class="text-white text-3xl">
+                  0
+              </span>
+            </button>
+            
+            <button class="flex items-center justify-center bg-slate-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-4xl">
+                    .
+                </span>
+            </button>
+            <button class="flex items-center justify-center bg-amber-500 h-20 w-20 rounded-full cursor-pointer">
+                <span class="text-white text-4xl">
+                    =
+                 </span>
+            </button>
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
